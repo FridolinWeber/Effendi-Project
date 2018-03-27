@@ -1,0 +1,9 @@
+1. Download PyQt4 from https://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11.4/
+2. From the list of available files, choose the relevant version for a 32bit or a 64bit sytsem
+3. Open the exe file, after downloading, and click yes on the dialog
+4. Select "Full" as the type of install
+5. Ensure that the installation path is inside the Python27 folder (e.g. C:\Python27)
+6. After the installation has successfully finished, go to the Python27 folder and open Lib
+7. Inside Lib, open the folder site-packages
+8. Look for the PyQt4 folder and open it
+9. Double click on the designer file to lauch the application
