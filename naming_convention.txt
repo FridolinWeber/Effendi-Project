@@ -1,0 +1,9 @@
+each file of the codes have to following naming convention:
+
+[Part]_[Name]_[number of change]_[00?]_[Date of first creation of the file]_[Initial of the first name of the creator of the file]
+
+- Part means means for which part of the program the code is needed (e.g. GUI/DataProcessing...)
+- name should describe more specific what the code does
+- 00? always stars with 001. If a alternative code for the same Part and Name is written this number is stepped up
+- Data: e.g. 28 March 2018 -> 280318
+ 
