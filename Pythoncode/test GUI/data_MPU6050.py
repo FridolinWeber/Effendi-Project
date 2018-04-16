@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 cnt = 0
-strPort = 'com10'  #change the com Port to the port of the Device. The current port of the Arduino can be read out in the Arduino IDE
+strPort = 'com7'  #change the com Port to the port of the Device. The current port of the Arduino can be read out in the Arduino IDE
 
 # plot class
 class AnalogPlot:

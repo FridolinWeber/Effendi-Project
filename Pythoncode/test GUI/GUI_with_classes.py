@@ -5,6 +5,7 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4.uic import *
 import datatracker
+import data_MPU6050
 
 
 class MyWindow(QMainWindow):
@@ -12,9 +13,15 @@ class MyWindow(QMainWindow):
         QMainWindow.__init__(self, parent)
         loadUi("my_test_gui.ui", self)
 
-        self.connect(self.startFunction, SIGNAL("clicked()"), datatracker.main) #w enthält Referenz auf das gebaute Fenster
+        self.connect(self.startFunction, SIGNAL("clicked()"), self.selectFunction) #w enthält Referenz auf das gebaute Fenster
         self.connect(self.writeCom, SIGNAL("clicked()"), self.setComport)
         self.connect(self.confirmName, SIGNAL("clicked()"), self.documentName)
+
+    def selectFunction(self):
+        if self.SensorSelect.currentText() == "Force Pressure / Piezo Sensor":
+            datatracker.main()
+        if self.SensorSelect.currentText() == "MPU6050":
+            data_MPU6050.main()
 
     def setComport(self):
         port = str(self.comboBox.currentText())

@@ -57,7 +57,7 @@ class AnalogPlot:
         '''
         this function calls the addToBuf function that adds the read out values to the buffer.
         '''
-        if len(data) == 2:
+        if len(data) == 1:
             self.addToBuf(self.au, data[0])
         if len(data) == 2:
             self.addToBuf(self.au, data[0])
