@@ -121,10 +121,10 @@ class AnalogPlot:
                 a3.set_data(range(self.maxLen), self.ax)
                 a4.set_data(range(self.maxLen), self.ay)
 
+                self.writedata(data, docName)
+
             except:
                 print 'error in conversion'
-
-            self.writedata(data, docName)
 
         except KeyboardInterrupt:
             print('exiting')

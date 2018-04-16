@@ -13,9 +13,11 @@ from time import sleep
 from collections import deque
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
+import time
 
-cnt = 0
+
 strPort = 'com7'  #change the com Port to the port of the Device. The current port of the Arduino can be read out in the Arduino IDE
+docName = "test" #default name of document to save
 
 # plot class
 class AnalogPlot:
@@ -30,8 +32,9 @@ class AnalogPlot:
         self.ax = deque([0.0] * maxLen)
         self.ay = deque([0.0] * maxLen)
         self.az = deque([0.0] * maxLen)
-        self.maxLen = maxLen
 
+        self.maxLen = maxLen
+        self.cnt = 0
 
     def addToBuf(self, buf, val):
         '''
@@ -53,6 +56,18 @@ class AnalogPlot:
         self.addToBuf(self.ay, data[1])
         self.addToBuf(self.az, data[2])
 
+    def writedata(self, data, docName):
+        '''function that writes measurement data to a .txt file'''
+        t = time.clock()
+        string = str(self.cnt) + "," + str(t) + "," + str(data) + "\n"
+
+        docfullname = docName + "." + "txt"
+        f = open(docfullname, "a+")
+        f.write(string)
+        f.close()
+
+        self.cnt += 1
+
     def update(self, frameNum, a0, a1, a2):
         '''
         the update function is continously called by FuncAnimation. A ."." is written to the SerialPort and the
@@ -65,6 +80,8 @@ class AnalogPlot:
             self.ser.write(".") #Python sends a "." to the Arduino which causes the Arduino to write the current position to the Serial Port if this feature ist not used the transfer of data is far too slow
             line = self.ser.readline()
             convertList = (line.split(";"))[0:3]
+
+
             try:
                 data = [float(val) for val in convertList] # line.split is important if more than 2 values are sent over the serial port by the Arduino
                 if len(data) == 3:
@@ -73,14 +90,11 @@ class AnalogPlot:
                     a1.set_data(range(self.maxLen), self.ay)
                     a2.set_data(range(self.maxLen), self.az)
 
-                    string = str(cnt) + "," + str(data) + "\n"
+                self.writedata(data, docName)
 
-                    f = open("test.txt", "a+")
-                    f.write(string)
-                    f.close()
-                    cnt += 1
             except:
                 print 'error in conversion'
+
 
         except KeyboardInterrupt:
             print('exiting')

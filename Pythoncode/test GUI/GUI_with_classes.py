@@ -30,7 +30,10 @@ class MyWindow(QMainWindow):
 
     def documentName(self):
         print(self.lineEdit.text())
-        datatracker.docName = self.lineEdit.text()
+        if self.SensorSelect.currentText() == "Force Pressure / Piezo Sensor":
+            datatracker.docName = self.lineEdit.text()
+        if self.SensorSelect.currentText() == "MPU6050":
+            data_MPU6050.docName = self.lineEdit.text()
 
 def main():
     app = QApplication(sys.argv)
