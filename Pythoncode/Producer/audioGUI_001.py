@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+'''
+computer has to be connected to the internet!! otherwise the sound to text module will not work
+'''
 import sys
 from PyQt4.QtCore import *
 from PyQt4.QtGui import *
