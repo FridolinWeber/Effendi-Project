@@ -2,7 +2,7 @@
 # many code parts taken from http://electronut.in/plotting-real-time-data-from-arduino-using-python/
 
 # this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is safed
-# into a file and a live plot takes place.
+# into a file and a live plot takes place
 
 
 import sys, serial, argparse

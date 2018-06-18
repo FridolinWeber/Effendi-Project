@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9494a7-c807-4a84-8763-847ff105f7ca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger2_linkehand.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger2_linkehand_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Kopfneigung_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Piezo_1.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +23,8 @@
       <file leaf-file-name="datatracker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -94,11 +101,11 @@
         <option value="$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test.py" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test_002.py" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py" />
+        <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/test.txt" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
-        <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
       </list>
     </option>
   </component>
@@ -309,9 +316,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14144737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -688,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="30" />
           <folding />
         </state>
       </provider>
