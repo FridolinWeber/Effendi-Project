@@ -89,7 +89,7 @@ class AnalogPlot:
                     a0.set_data(range(self.maxLen), self.ax)
                     a1.set_data(range(self.maxLen), self.ay)
                     a2.set_data(range(self.maxLen), self.az)
-
+                print data
                 self.writedata(data, docName)
 
             except:
