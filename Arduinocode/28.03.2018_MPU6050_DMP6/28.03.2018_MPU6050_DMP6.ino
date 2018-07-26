@@ -308,6 +308,7 @@ void loop() {
             Serial.print("\t");
             Serial.println(euler[2] * 180/M_PI);
         #endif
+     
       if(Serial.available()){
         char rx_char;
         rx_char = Serial.read();

@@ -15,7 +15,7 @@ from moviepy.editor import VideoClip
 import time
 
 
-strPort = "com25"
+strPort = "com11"
 docName = "test" #default name of document to save
 
 

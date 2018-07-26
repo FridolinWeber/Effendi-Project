@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9494a7-c807-4a84-8763-847ff105f7ca" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger2_linkehand.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Finger2_linkehand_2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Kopfneigung_1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/Versuch_BI_Piezo_1.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Effendi-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Effendi-Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/27.03.2018_Daten_5forcePressureSensors/27.03.2018_Daten_5forcePressureSensors.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arduinocode/27.03.2018_Daten_5forcePressureSensors/27.03.2018_Daten_5forcePressureSensors.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/28.03.2018_MPU6050_DMP6/28.03.2018_MPU6050_DMP6.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arduinocode/28.03.2018_MPU6050_DMP6/28.03.2018_MPU6050_DMP6.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,9 +22,11 @@
       <file leaf-file-name="datatracker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+              <folding>
+                <element signature="e#304#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,8 +34,8 @@
       <file leaf-file-name="GUI_with_classes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="120">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
               </folding>
@@ -45,8 +46,8 @@
       <file leaf-file-name="audioGUI_001.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="e#129#139#0" expanded="true" />
               </folding>
@@ -57,9 +58,8 @@
       <file leaf-file-name="speakrecognizer_001.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="340">
+              <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <file leaf-file-name="data_MPU6050.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1445">
-              <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+            <state relative-caret-position="740">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <element signature="e#367#395#0" expanded="true" />
               </folding>
@@ -101,35 +101,26 @@
         <option value="$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test.py" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test_002.py" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py" />
-        <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/test.txt" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
+        <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,11 +149,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Python27" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,8 +167,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.audioGUI_001">
+  <component name="RunManager" selected="Python.datatracker">
     <configuration name="GUI_with_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -188,47 +180,50 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Effendi-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="audioGUI_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="camtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pythoncode/Producer" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/PyGaze-master/examples/show_webcam" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Effendi-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/PyGaze-master/examples/show_webcam/camtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="data_MPU6050" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="camtracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pythoncode/test GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Effendi-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame/camtracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="datatracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,48 +234,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Effendi-Project" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="speakrecognizer_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="libwebcam" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pythoncode/Producer" />
+      <option name="WORKING_DIRECTORY" value="C:/Python27/Lib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Effendi-Project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py" />
+      <option name="SCRIPT_NAME" value="C:/Python27/Lib/libwebcam.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.speakrecognizer_001" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GUI_with_classes" />
-      <item index="2" class="java.lang.String" itemvalue="Python.audioGUI_001" />
-      <item index="3" class="java.lang.String" itemvalue="Python.data_MPU6050" />
-      <item index="4" class="java.lang.String" itemvalue="Python.datatracker" />
+    <list>
+      <item itemvalue="Python.datatracker" />
+      <item itemvalue="Python.camtracker" />
+      <item itemvalue="Python.camtest" />
+      <item itemvalue="Python.libwebcam" />
+      <item itemvalue="Python.GUI_with_classes" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.audioGUI_001" />
-        <item index="1" class="java.lang.String" itemvalue="Python.GUI_with_classes" />
-        <item index="2" class="java.lang.String" itemvalue="Python.data_MPU6050" />
-        <item index="3" class="java.lang.String" itemvalue="Python.speakrecognizer_001" />
-        <item index="4" class="java.lang.String" itemvalue="Python.datatracker" />
+      <list>
+        <item itemvalue="Python.datatracker" />
+        <item itemvalue="Python.GUI_with_classes" />
+        <item itemvalue="Python.libwebcam" />
+        <item itemvalue="Python.camtest" />
+        <item itemvalue="Python.camtracker" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TestHistory">
     <history-entry file="Doctests_in_storeAudio_test_002 - 2018.04.14 at 20h 00m 27s.xml">
@@ -315,55 +311,55 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14144737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.117492095" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28400436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Structure" order="0" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#129#139#0" expanded="true" />
           </folding>
@@ -373,74 +369,14 @@
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#129#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -458,14 +394,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#129#139#0" expanded="true" />
           </folding>
@@ -476,34 +410,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#367#395#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
-          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#395#0" expanded="true" />
-          </folding>
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#129#139#0" expanded="true" />
           </folding>
@@ -521,17 +448,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="34" />
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
@@ -541,15 +463,14 @@
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
-          <caret line="82" column="16" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-          <folding />
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -573,14 +494,14 @@
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#129#139#0" expanded="true" />
           </folding>
@@ -588,33 +509,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/producer_speakrecognizer_001.py" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/producer_speakrecognizer_001.py" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/run_GUI.py">
@@ -625,23 +534,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test_002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1543">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -653,29 +558,26 @@
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/PiezoTest.txt" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/head to the left.txt" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/this is a test.txt" />
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/test.txt" />
-    <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
+    <entry file="file://$USER_HOME$/Downloads/get-pip.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/get-pip.py" />
+    <entry file="file://$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame/GUItest.py" />
+    <entry file="file://$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame/camtracker.py" />
+    <entry file="file://$USER_HOME$/Desktop/VideoCapture-0.9-5/Examples/exa1_snapshot.py" />
+    <entry file="file://C:/Python27/Lib/libwebcam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="920">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1445">
-          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-          <folding>
-            <element signature="e#367#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Desktop/PyGaze-master/examples/show_webcam/camtest.py" />
+    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
           </folding>
@@ -684,19 +586,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="e#129#139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#367#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="141" column="30" lean-forward="false" selection-start-line="141" selection-start-column="24" selection-end-line="141" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="340">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="e#304#332#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
