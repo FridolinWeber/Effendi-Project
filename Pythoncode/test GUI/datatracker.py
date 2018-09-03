@@ -1,7 +1,14 @@
 #!usr/bin/env python
+
+# File name: datatracker.py
+# Author: Fridolin Weber, Saad Nasir
+# Date created: 16.04.2018
+# Date last modified: 01.05.2018
+# Python Version: 2.7
 # many code parts taken from http://electronut.in/plotting-real-time-data-from-arduino-using-python/
 
-# this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is safed
+
+# this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is saved
 # into a file and a live plot takes place
 
 
@@ -11,12 +18,12 @@ from time import sleep
 from collections import deque
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
-from moviepy.editor import VideoClip
+#from moviepy.editor import VideoClip
 import time
 
 
-strPort = "com11"
-docName = "test" #default name of document to save
+strPort = "com3"
+docName = "test"
 
 
 class AnalogPlot:
@@ -176,5 +183,3 @@ def main():
 # call main
 if __name__ == '__main__':
     main()
-
-

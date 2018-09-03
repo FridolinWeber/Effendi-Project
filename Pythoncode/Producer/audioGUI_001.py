@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
 
+# File name: audioGUI_001.py
+# Author: Fridolin Weber, Saad Nasir
+# Date created: 16.04.2018
+# Date last modified: 01.05.2018
+# Python Version: 2.7
+
 '''
 computer has to be connected to the internet!! otherwise the sound to text module will not work
 '''

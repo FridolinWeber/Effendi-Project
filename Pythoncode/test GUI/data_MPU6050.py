@@ -1,10 +1,15 @@
 #!usr/bin/env python
+
+# File name: data_MPU6050.py
+# Author: Fridolin Weber, Saad Nasir
+# Date created: 16.04.2018
+# Date last modified: 01.05.2018
+# Python Version: 2.7
 # many code parts taken from http://electronut.in/plotting-real-time-data-from-arduino-using-python/
 
-# this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is safed
+# this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is saved
 # into a txt.file and a live plot takes place
-
-#  still unknown error if there is an error in conversion
+# still unknown error if there is an error in conversion
 
 
 import sys, serial, argparse
@@ -17,7 +22,7 @@ import time
 
 
 strPort = 'com10'  #change the com Port to the port of the Device. The current port of the Arduino can be read out in the Arduino IDE
-docName = "test" #default name of document to save
+docName = "test"   #default name of document to save
 
 # plot class
 class AnalogPlot:
