@@ -1,14 +1,20 @@
+// this code reads data from 5 froce pressure sensors and writes them to the serial port. Additionally it is possible to control a LED by writing to the serial port.
+
+
+int ledPin = 5;
 void setup() {
   Serial.begin(9600);
+  pinMode(ledPin, OUTPUT); // Optional LED 
+  digitalWrite(ledPin, HIGH);
 }
 
-void loop() {
+void loop() {  //Reading analog inputs from FSRs and sending them to Python
   analogRead(0);
   delay (2);
   int pressureValue0 = analogRead(0);
 
-  analogRead(1); //trashanalogreadings due to impedance when Arduino switches to multiplexer readout
-  delay (2);
+  analogRead(1); //trashanalogreadings due to impedance when Arduino switches to multiplexer readout.
+  delay (2);     //Reading out each port twice reduces error that can occurr between the analog ports.
   int pressureValue1 = analogRead(1);
 
   analogRead(2);
@@ -25,14 +31,14 @@ void loop() {
 
   Serial.print(pressureValue0);
   Serial.print(";");
-  /**Serial.print(pressureValue1);
+  Serial.print(pressureValue1);
   Serial.print(";");
   Serial.print(pressureValue2);
   Serial.print(";");
   Serial.print(pressureValue3);
   Serial.print(";");
   Serial.print(pressureValue4);
-  Serial.println(";");**/
+  Serial.println(";");
 
   delay (100);
 }
@@ -52,7 +58,7 @@ void loop() {
 //  analogRead(0);
 //  delay (1);
 //  int pressureValue0 = analogRead(0);
-//  analogRead(1); //trash analogreadings due to impedance when Arduino switches to multiplexer readout. Reading out each port twice reduces error that can occurr between the analog ports.
+//  analogRead(1); //trash analogreadings due to impedance when Arduino switches to multiplexer readout.
 //  delay (1);
 //  int pressureValue1 = analogRead(1);
 //  analogRead(2);

@@ -8,7 +8,7 @@
 # many code parts taken from http://electronut.in/plotting-real-time-data-from-arduino-using-python/
 
 
-# this code reads the serial input of com7, which is always one value that is read out from one force pressure sensor. The data is saved
+# this code reads the serial input of comPort, which is always one value that is read out from one force pressure sensor. The data is saved
 # into a file and a live plot takes place
 
 
@@ -22,7 +22,7 @@ import matplotlib.animation as animation
 import time
 
 
-strPort = "com3"
+strPort = "com3" #Com port of the Arduino Devices
 docName = "test"
 
 

@@ -1,3 +1,6 @@
+// this code reade data from 2 Piezo sensors and writes them to the serial port.
+
+
 void setup() {
   Serial.begin(9600);
 }

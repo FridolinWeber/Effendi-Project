@@ -1,8 +1,5 @@
-int ledPin = 5;
 void setup() {
   Serial.begin(9600);
-  pinMode(ledPin, OUTPUT);
-  digitalWrite(ledPin, HIGH);
 }
 
 void loop() {
@@ -14,7 +11,7 @@ void loop() {
   delay (2);
   int pressureValue1 = analogRead(1);
 
-  analogRead(2);
+ /** analogRead(2);
   delay(2);
   int pressureValue2 = analogRead(2);
 
@@ -25,17 +22,19 @@ void loop() {
   analogRead(4);
   delay(2);
   int pressureValue4 = analogRead(4);
-
+**\
+*
+ */
   Serial.print(pressureValue0);
   Serial.print(";");
-  Serial.print(pressureValue1);
+  /**Serial.print(pressureValue1);
   Serial.print(";");
   Serial.print(pressureValue2);
   Serial.print(";");
   Serial.print(pressureValue3);
   Serial.print(";");
   Serial.print(pressureValue4);
-  Serial.println(";");
+  Serial.println(";");**/
 
   delay (100);
 }

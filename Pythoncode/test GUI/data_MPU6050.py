@@ -129,13 +129,14 @@ def main():
     anim = animation.FuncAnimation(fig, analogPlot.update, fargs=(a0, a1, a2), interval=20)
 
     try:
+    #show plot
         plt.show()
     except:
         pass
     analogPlot.close()
-
+    # clean up
     print('exiting.')
 
-
+# call main
 if __name__ == '__main__':
     main()

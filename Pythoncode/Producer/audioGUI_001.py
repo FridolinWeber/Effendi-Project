@@ -43,6 +43,6 @@ def main():
     NewWindow.show()
     sys.exit(app.exec_())
 
-
+# call main
 if __name__ == '__main__':
     main()
