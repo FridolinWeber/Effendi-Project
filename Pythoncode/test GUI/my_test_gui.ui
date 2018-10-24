@@ -60,6 +60,11 @@
       </item>
       <item>
        <property name="text">
+        <string>com5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>com3</string>
        </property>
       </item>
