@@ -7,7 +7,6 @@
 # Python Version: 2.7
 # many code parts taken from http://electronut.in/plotting-real-time-data-from-arduino-using-python/
 
-
 # this code reads the serial input of comPort, which is always one value that is read out from one force pressure sensor. The data is saved
 # into a file and a live plot takes place
 
@@ -22,7 +21,7 @@ import matplotlib.animation as animation
 import time
 
 
-strPort = "com8" #Com port of the Arduino Devices
+strPort = "com10" #Com port of the Arduino Devices
 docName = "test"
 
 
@@ -48,10 +47,10 @@ class AnalogPlot:
         self.at = deque([0.0] * maxLen)
         self.aq = deque([0.0] * maxLen)
         self.ar = deque([0.0] * maxLen)
+        self.ab = deque([0.0] * maxLen)
 
         self.maxLen = maxLen
         self.cnt = 0
-
 
     def addToBuf(self, buf, val):
         '''
@@ -100,8 +99,18 @@ class AnalogPlot:
             self.addToBuf(self.at, data[7])
             self.addToBuf(self.aq, data[8])
             self.addToBuf(self.ar, data[9])
-
-
+        if len(data) == 11:
+            self.addToBuf(self.au, data[0])
+            self.addToBuf(self.av, data[1])
+            self.addToBuf(self.aw, data[2])
+            self.addToBuf(self.ax, data[3])
+            self.addToBuf(self.ay, data[4])
+            self.addToBuf(self.az, data[5])
+            self.addToBuf(self.ap, data[6])
+            self.addToBuf(self.at, data[7])
+            self.addToBuf(self.aq, data[8])
+            self.addToBuf(self.ar, data[9])
+            self.addToBuf(self.ab, data[10])
 
     def writedata(self, data, docName):
         '''function that writes measurement data to a .txt file'''
@@ -115,7 +124,7 @@ class AnalogPlot:
 
         self.cnt += 1
 
-    def update(self, frameNum, a0=([], []), a1=([], []), a2=([], []), a3=([], []), a4=([], []), a5=([], []), a6=([], []), a7=([], []), a8=([], []), a9=([], [])):
+    def update(self, frameNum, a0=([], []), a1=([], []), a2=([], []), a3=([], []), a4=([], []), a5=([], []), a6=([], []), a7=([], []), a8=([], []), a9=([], []), a10=([], [])):
         '''
         the update function is continously called by FuncAnimation. The str data from the serial port
         are converted to floats and later written to a txt.file. "frameNum" in the arguments of the function is needed
@@ -124,7 +133,7 @@ class AnalogPlot:
         try:
             line = self.ser.readline()
 
-            convertList = (line.split(";"))[0:10]
+            convertList = (line.split(";"))[0:11]
             if convertList[-1] == '\r\n':
                 convertList.pop(-1)
             if convertList[-1] == '\r\n':
@@ -145,7 +154,8 @@ class AnalogPlot:
                 convertList.pop(-1)
             if convertList[-1] == '\r\n':
                 convertList.pop(-1)
-
+            if convertList[-1] == '\r\n':
+                convertList.pop(-1)
 
             print convertList
 
@@ -163,6 +173,7 @@ class AnalogPlot:
                 a7.set_data(range(self.maxLen), self.at)
                 a8.set_data(range(self.maxLen), self.aq)
                 a9.set_data(range(self.maxLen), self.ar)
+                a10.set_data(range(self.maxLen), self.ab)
 
                 self.writedata(data, docName)
 
@@ -178,7 +189,6 @@ class AnalogPlot:
         # close serial
         self.ser.flush()
         self.ser.close()
-
 
 def main():
 
@@ -202,10 +212,10 @@ def main():
     a7, = ax.plot([], [])
     a8, = ax.plot([], [])
     a9, = ax.plot([], [])
+    a10, = ax.plot([], [])
 
 
-
-    anim = animation.FuncAnimation(fig, analogPlot.update, frames=25, fargs=(a0, a1, a2, a3, a4, a5, a6, a7, a8, a9), interval=10)
+    anim = animation.FuncAnimation(fig, analogPlot.update, frames=25, fargs=(a0, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10), interval=10)
     #Writer = animation.writers['ffmpeg']
     #WriterFile = animation.writers['ffmpeg_file']
     #anim.save('osc.mp4', writer=Writer(fps=100), dpi=200)
@@ -215,13 +225,10 @@ def main():
     except:
         pass
 
-
     analogPlot.close()
 
     # clean up
     print('exiting.')
-
-
 
 # call main
 if __name__ == '__main__':
