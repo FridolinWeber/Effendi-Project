@@ -12,7 +12,7 @@ from PyQt4.QtCore import *
 from PyQt4.QtGui import *
 from PyQt4.uic import *
 import datatracker
-import data_MPU6050
+import datatracker_main
 
 
 class MyWindow(QMainWindow):
@@ -28,10 +28,8 @@ class MyWindow(QMainWindow):
         '''
         function that selects the sensor type
         '''
-        if self.SensorSelect.currentText() == "Force Pressure / Piezo Sensor":  #
-            datatracker.main()
-        if self.SensorSelect.currentText() == "MPU6050":
-            data_MPU6050.main()
+        if self.SensorSelect.currentText() == "Prototyp":
+            datatracker_main.main()
 
     def setComport(self):
         '''
@@ -49,7 +47,7 @@ class MyWindow(QMainWindow):
         if self.SensorSelect.currentText() == "Force Pressure / Piezo Sensor":
             datatracker.docName = self.lineEdit.text()
         if self.SensorSelect.currentText() == "MPU6050":
-            data_MPU6050.docName = self.lineEdit.text()
+            datatracker_main.docName = self.lineEdit.text()
 
 def main():
     app = QApplication(sys.argv)

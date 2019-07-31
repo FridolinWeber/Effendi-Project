@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9494a7-c807-4a84-8763-847ff105f7ca" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pythoncode/test GUI/mauskontrol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Arduinocode/04.09.2018_10forcePressureSensor/04.09.2018_10forcePressureSensor/04.09.2018_10forcePressureSensor.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arduinocode/04.09.2018_10forcePressureSensor/04.09.2018_10forcePressureSensor/04.09.2018_10forcePressureSensor.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DummyEmail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImgTest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/DataProcessing/processMPU6050Data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/DataProcessing/read_3SensorsAndProcessData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/Producer/Versuch_Bl_Test_1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/Producer/Versuch_Bl_Test_2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/Producer/output.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/Producer/storeAudio_test_002.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/19.03.18_1058_SendData_Arduino_001/19.03.18_1058_SendData_Arduino_001.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/25.03.2018_2forcePressureSensorsSend/25.03.2018_2forcePressureSensorsSend.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/26.03.2018_3forcePressureSensors/26.03.2018_3forcePressureSensors.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/27.03.2018_1forcePressureSensor_Test/27.03.2018_1forcePressureSensor_Test.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/27.03.2018_5forcePressureSensors/27.03.2018_5forcePressureSensors.ino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arduinocode/28.03.2018_MPU6050_DMP6/28.03.2018_MPU6050_DMP6.ino" beforeDir="false" afterPath="$PROJECT_DIR$/Arduinocode/28.03.2018_MPU6050_DMP6/28.03.2018_MPU6050_DMP6.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker_main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/my_test_gui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/my_test_gui.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pythoncode/test GUI/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pythoncode/test GUI/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sendex_pyQT.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,93 +24,104 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1396775955">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.3" value="7" />
-          <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="10" />
-          <entry key="project.opened" value="30" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="1258" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="1258" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="e#179#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#278#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.37184596">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker_main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2304">
+                  <caret line="134" selection-start-line="134" selection-end-line="134" />
+                  <folding>
+                    <element signature="e#510#538#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/mauskontrol.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1620">
+                  <caret line="99" selection-start-line="99" selection-end-line="99" />
+                  <folding>
+                    <element signature="e#510#528#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="16" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#179#189#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="774">
+                  <caret line="48" selection-start-line="48" selection-end-line="48" />
+                  <folding>
+                    <element signature="e#278#288#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                  <folding>
+                    <element signature="e#456#484#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../GYRO_MOUSE-master/MPU6050.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="18">
+                  <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../GYRO_MOUSE-master/MPU6050.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="267">
+                  <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -127,6 +133,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>serial</find>
+      <find>error</find>
+      <find>pag</find>
+      <find>ser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,15 +151,19 @@
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/test.txt" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py" />
         <option value="$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py" />
-        <option value="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
         <option value="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
+        <option value="$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py" />
+        <option value="$PROJECT_DIR$/../../GYRO_MOUSE-master/GYRO_MOUSE-master/MPU6050.py" />
+        <option value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker_main.py" />
+        <option value="$PROJECT_DIR$/Pythoncode/test GUI/mauskontrol.py" />
+        <option value="$PROJECT_DIR$/../../GYRO_MOUSE-master/MPU6050.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="5" />
-    <option name="y" value="-20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="1920" />
     <option name="height" value="1030" />
   </component>
@@ -159,12 +172,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Effendi-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Effendi-Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Effendi-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Effendi-Project" type="462c0819:PsiDirectoryNode" />
+              <item name="GuideToInstallQt4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Effendi-Project" type="b2602c69:ProjectViewProjectNode" />
@@ -183,16 +202,20 @@
               <item name="Pythoncode" type="462c0819:PsiDirectoryNode" />
               <item name="test GUI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Effendi-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.datatracker">
+  <component name="RunManager" selected="Python.MPU6050 (1)">
     <configuration name="GUI_with_classes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="audioGUI_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MPU6050 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,11 +259,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pythoncode/Producer" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../GYRO_MOUSE-master" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../GYRO_MOUSE-master/MPU6050.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,7 +272,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="data_MPU6050" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="MPU6050" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Effendi-Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../GYRO_MOUSE-master/GYRO_MOUSE-master" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../GYRO_MOUSE-master/GYRO_MOUSE-master/MPU6050.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="datatracker_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,7 +305,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,7 +314,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="datatracker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mauskontrol" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Effendi-Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,28 +326,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="speakrecognizer_001" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Effendi-Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pythoncode/Producer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pythoncode/test GUI/mauskontrol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,19 +336,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.datatracker" />
       <item itemvalue="Python.GUI_with_classes" />
-      <item itemvalue="Python.speakrecognizer_001" />
-      <item itemvalue="Python.data_MPU6050" />
-      <item itemvalue="Python.audioGUI_001" />
+      <item itemvalue="Python.MPU6050" />
+      <item itemvalue="Python.datatracker_main" />
+      <item itemvalue="Python.mauskontrol" />
+      <item itemvalue="Python.MPU6050 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.datatracker" />
+        <item itemvalue="Python.MPU6050 (1)" />
+        <item itemvalue="Python.mauskontrol" />
+        <item itemvalue="Python.datatracker_main" />
+        <item itemvalue="Python.MPU6050" />
         <item itemvalue="Python.GUI_with_classes" />
-        <item itemvalue="Python.audioGUI_001" />
-        <item itemvalue="Python.data_MPU6050" />
-        <item itemvalue="Python.speakrecognizer_001" />
       </list>
     </recent_temporary>
   </component>
@@ -365,28 +388,27 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1526768" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.01953125" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28785813" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.3025099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989432" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287858" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.3287858" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32760897" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32893" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.2681638" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit test" />
@@ -431,11 +453,11 @@
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/this is a test.txt" />
     <entry file="file://$USER_HOME$/Downloads/get-pip.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/get-pip.py" />
-    <entry file="file://$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame/GUItest.py" />
-    <entry file="file://$USER_HOME$/Desktop/webcam-eyetracker-master/PyGame/camtracker.py" />
-    <entry file="file://$USER_HOME$/Desktop/VideoCapture-0.9-5/Examples/exa1_snapshot.py" />
+    <entry file="file://$PROJECT_DIR$/../../webcam-eyetracker-master/PyGame/GUItest.py" />
+    <entry file="file://$PROJECT_DIR$/../../webcam-eyetracker-master/PyGame/camtracker.py" />
+    <entry file="file://$PROJECT_DIR$/../../VideoCapture-0.9-5/Examples/exa1_snapshot.py" />
     <entry file="file://C:/Python27/Lib/libwebcam.py" />
-    <entry file="file://$USER_HOME$/Desktop/PyGaze-master/examples/show_webcam/camtest.py" />
+    <entry file="file://$PROJECT_DIR$/../../PyGaze-master/examples/show_webcam/camtest.py" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/test.txt" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/DataProcessing/processMPU6050Data.py" />
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/Main.py">
@@ -445,17 +467,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/animation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="158">
+          <caret line="1749" selection-start-line="1749" selection-end-line="1749" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/serial/serialwin32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="910" selection-start-line="910" selection-end-line="910" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/cbook/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GYRO_MOUSE-master/GYRO_MOUSE-master/MPU6050.py" />
+    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2304">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="e#510#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/mauskontrol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#510#528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/GUI_with_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="198">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#179#189#0" expanded="true" />
           </folding>
@@ -464,7 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/audioGUI_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state relative-caret-position="774">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#278#288#0" expanded="true" />
@@ -474,15 +538,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pythoncode/Producer/speakrecognizer_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="252">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/data_MPU6050.py">
+    <entry file="file://$PROJECT_DIR$/Pythoncode/test GUI/datatracker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#456#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GYRO_MOUSE-master/MPU6050.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
         </state>
       </provider>
     </entry>

@@ -45,9 +45,13 @@ void loop() {  //Reading analog inputs from FSRs and sending them to Python
   delay(2);
   int pressureValue9 = analogRead(9);
 
-  analogRead(10);
-  delay(2);
-  int VRead1 = analogRead(10);
+  //analogRead(10);
+  //delay(2);
+  //int VRead1 = analogRead(10);
+
+  //analogRead(11);
+  //delay(2);
+  //int VRead2 = analogRead(11);
  
   Serial.print(pressureValue0);
   Serial.print(";");
@@ -68,9 +72,11 @@ void loop() {  //Reading analog inputs from FSRs and sending them to Python
   Serial.print(pressureValue8);
   Serial.print(";");
   Serial.print(pressureValue9);
-  Serial.print(";");
-  Serial.print(VRead1);
   Serial.println(";");
+ // Serial.print(VRead1);
+ //Serial.print(";");
+  //Serial.print(VRead2);
+  //Serial.println(";");
 
   delay (100);
 }

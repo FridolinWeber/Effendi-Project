@@ -132,12 +132,7 @@
      <widget class="QComboBox" name="SensorSelect">
       <item>
        <property name="text">
-        <string>Force Pressure / Piezo Sensor</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>MPU6050</string>
+        <string>Prototype</string>
        </property>
       </item>
      </widget>

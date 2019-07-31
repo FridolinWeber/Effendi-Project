@@ -1,3 +1,5 @@
+#include <MPU6050.h>
+
 // I2C device class (I2Cdev) demonstration Arduino sketch for MPU6050 class using DMP (MotionApps v2.0)
 // 6/21/2012 by Jeff Rowberg <jeff@rowberg.net>
 // Updates should (hopefully) always be available at https://github.com/jrowberg/i2cdevlib
@@ -45,8 +47,8 @@ THE SOFTWARE.
 // for both classes must be in the include path of your project
 #include "I2Cdev.h"
 
-#include "MPU6050_6Axis_MotionApps20.h"
-//#include "MPU6050.h" // not necessary if using MotionApps include file
+//#include "MPU6050_6Axis_MotionApps20.h"
+#include "MPU6050.h" // not necessary if using MotionApps include file
 
 // Arduino Wire library is required if I2Cdev I2CDEV_ARDUINO_WIRE implementation
 // is used in I2Cdev.h
@@ -181,12 +183,12 @@ void setup() {
     // crystal solution for the UART timer.
 
     // initialize device
-    //Serial.println(F("Initializing I2C devices..."));
+    Serial.println(F("Initializing I2C devices..."));
     mpu.initialize();
 
     // verify connection
     Serial.println(F("Testing device connections..."));
-    //Serial.println(mpu.testConnection() ? F("MPU6050 connection successful") : F("MPU6050 connection failed"));
+    Serial.println(mpu.testConnection() ? F("MPU6050 connection successful") : F("MPU6050 connection failed"));
 
     // wait for ready
     //Serial.println(F("\nSend any character to begin DMP programming and demo: "));
@@ -195,7 +197,7 @@ void setup() {
     //while (Serial.available() && Serial.read()); // empty buffer again
 
     // load and configure the DMP
-    //Serial.println(F("Initializing DMP..."));
+    Serial.println(F("Initializing DMP..."));
     devStatus = mpu.dmpInitialize();
 
     // supply your own gyro offsets here, scaled for min sensitivity
@@ -211,8 +213,8 @@ void setup() {
         mpu.setDMPEnabled(true);
 
         // enable Arduino interrupt detection
-        //Serial.println(F("Enabling interrupt detection (Arduino external interrupt 0)..."));
-        attachInterrupt(0, dmpDataReady, RISING);
+        Serial.println(F("Enabling interrupt detection (Arduino external interrupt 0)..."));
+        attachInterrupt(4, dmpDataReady, RISING);
         mpuIntStatus = mpu.getIntStatus();
 
         // set our DMP Ready flag so the main loop() function knows it's okay to use it
@@ -297,17 +299,17 @@ void loop() {
             Serial.println(q.z);
         #endif
 
-        #ifdef OUTPUT_READABLE_EULER
+        //#ifdef OUTPUT_READABLE_EULER
             // display Euler angles in degrees
-            mpu.dmpGetQuaternion(&q, fifoBuffer);
-            mpu.dmpGetEuler(euler, &q);
-            Serial.print("euler\t");
-            Serial.print(euler[0] * 180/M_PI);
-            Serial.print("\t");
-            Serial.print(euler[1] * 180/M_PI);
-            Serial.print("\t");
-            Serial.println(euler[2] * 180/M_PI);
-        #endif
+          //  mpu.dmpGetQuaternion(&q, fifoBuffer);
+            //mpu.dmpGetEuler(euler, &q);
+            //Serial.print("euler\t");
+            //Serial.print(euler[0] * 180/M_PI);
+            //Serial.print("\t");
+            //Serial.print(euler[1] * 180/M_PI);
+            //Serial.print("\t");
+            //Serial.println(euler[2] * 180/M_PI);
+        //#endif
      
       if(Serial.available()){
         char rx_char;
@@ -330,7 +332,6 @@ void loop() {
                     Serial.print(";");
                     Serial.print(ypr[2] * 180/M_PI);
                     Serial.println(";");
-        //            Serial.println(ypr[1]);
                 #endif
           }
       }
@@ -384,5 +385,6 @@ void loop() {
         // blink LED to indicate activity
         blinkState = !blinkState;
         digitalWrite(LED_PIN, blinkState);
+
     }
 }
